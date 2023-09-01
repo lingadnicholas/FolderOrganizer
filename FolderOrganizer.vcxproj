@@ -19,12 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BaseHandler.cpp" />
+    <ClCompile Include="src\ExtensionOrganizerHandler.cpp" />
+    <ClCompile Include="src\Handler.cpp" />
     <ClCompile Include="src\form.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\HandlerFactory.h" />
+    <ClInclude Include="include\ExtensionOrganizerHandler.h" />
+    <ClInclude Include="include\Handler.h" />
     <ClInclude Include="include\form.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

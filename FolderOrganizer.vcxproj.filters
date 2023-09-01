@@ -21,7 +21,10 @@
     <ClCompile Include="src\form.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BaseHandler.cpp">
+    <ClCompile Include="src\Handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ExtensionOrganizerHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +32,10 @@
     <ClInclude Include="include\form.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\HandlerFactory.h">
+    <ClInclude Include="include\Handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ExtensionOrganizerHandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
