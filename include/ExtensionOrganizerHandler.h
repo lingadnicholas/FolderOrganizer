@@ -1,9 +1,13 @@
 #pragma once
-class ExtensionOrganizerHandler {
+#include "Handler.h" 
+#include <filesystem> 
+
+// 0 in choice list 
+class ExtensionOrganizerHandler : public Handler {
 	public: 
-		ExtensionOrganizerHandler(const std::filepath::path path); 
+		ExtensionOrganizerHandler(const std::filesystem::path p); 
 		int handleRequest(); 
 	private:
-		const std::filepath::path path_; 
+		const std::filesystem::path path; 
 };
 

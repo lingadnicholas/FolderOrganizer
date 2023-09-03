@@ -12,7 +12,7 @@ class Form {
 	private:
 		bool validChoice(std::string choice); 
 		bool validFilePath(std::string path); 
-		const std::string choiceInput = "Please input a number 0-" + std::to_string(NUM_CHOICES - 1) + ".\n";
+		const std::string choiceText = "Please input a number 0-" + std::to_string(NUM_CHOICES - 1) + ".\n";
 
 };
 

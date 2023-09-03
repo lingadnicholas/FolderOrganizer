@@ -19,12 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\FolderOrganizer.cpp" />
     <ClCompile Include="src\ExtensionOrganizerHandler.cpp" />
     <ClCompile Include="src\Handler.cpp" />
     <ClCompile Include="src\form.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\FolderOrganizer.h" />
     <ClInclude Include="include\ExtensionOrganizerHandler.h" />
     <ClInclude Include="include\Handler.h" />
     <ClInclude Include="include\form.h" />
